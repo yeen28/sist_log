@@ -1,4 +1,4 @@
-package weblog_analysis;
+package kr.co.sist.log_analysis.evt;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,6 +7,12 @@ import java.awt.event.WindowEvent;
 import java.io.FileNotFoundException;
 
 import javax.swing.JOptionPane;
+
+import kr.co.sist.log_analysis.view.ChoiceFileDialog;
+import kr.co.sist.log_analysis.view.LogAnalysisView;
+import kr.co.sist.log_analysis.view.RangeException;
+import kr.co.sist.log_analysis.view.ReportProcess;
+import kr.co.sist.log_analysis.view.ViewLogDialog;
 
 public class LogAnalysisEvent extends WindowAdapter implements ActionListener {
 

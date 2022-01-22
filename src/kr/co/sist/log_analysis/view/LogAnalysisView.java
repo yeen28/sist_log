@@ -1,4 +1,4 @@
-package weblog_analysis;
+package kr.co.sist.log_analysis.view;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -7,6 +7,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+
+import kr.co.sist.log_analysis.evt.LogAnalysisEvent;
 
 @SuppressWarnings("serial")
 public class LogAnalysisView extends JFrame {

@@ -1,4 +1,6 @@
-package weblog_analysis;
+package kr.co.sist.log_analysis.run;
+
+import kr.co.sist.log_analysis.view.LoginView;
 
 public class MainRun {
 

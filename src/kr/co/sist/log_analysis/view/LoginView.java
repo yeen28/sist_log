@@ -1,4 +1,4 @@
-package weblog_analysis;
+package kr.co.sist.log_analysis.view;
 
 import java.awt.Font;
 import java.awt.Image;
@@ -9,6 +9,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+
+import kr.co.sist.log_analysis.evt.LoginEvent;
 
 @SuppressWarnings("serial")
 public class LoginView extends JFrame {

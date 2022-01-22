@@ -1,4 +1,4 @@
-package weblog_analysis;
+package kr.co.sist.log_analysis.view;
 
 import java.io.BufferedReader;
 import java.io.File;
